@@ -1,0 +1,49 @@
+<html>
+  <head>
+    <meta charset = "utf-8">
+    <meta name="viewport" content="width=device-width,    initial-scale=1.0">
+    <link rel = "stylesheet" href = "styles.css">
+    <h1 id = "title">Maks`s survey</h1>
+    <p id = "description">Please fill out the survey :D</p>
+  </head>
+  <body>
+    <form id = "survey-form">
+      <fieldset>
+        <label id = "name-label">Enter your name: <input id = "name" type = "text" placeholder = "Ivan Popov" required/></label>
+        <label id = "email-label">Enter your email: <input id = "email" type = "email" placeholder = "monkey@monkey.bg" required/></label>
+        <!-- Change number label-->
+        <label id = "number-label">Enter your number: <input id = "number" type = "text" placeholder = "0899999999" pattern = "[0-9]{10,}" required /></label>
+      </fieldset>
+      <fieldset>
+        <legend class = "legend">Select your gender: </legend>
+        <label for = "gender-male"><input id = "gender" type = "radio" name = "gender-type" value = " Male" class="inline" checked> Male</label>
+        <label for = "gender-female"><input id = "gender" type = "radio" name = "gender-type" class="inline" value = " Female" > Female</label>
+        <label for = "gender-other"><input id = "gender" type = "radio" name = "gender-type" class="inline" value = " Other" > Other</label>
+      </fieldset>
+      <fieldset>
+        <label for = "preference">What is your favourite protein powder taste?
+          <select id = "dropdown" name = "taste">
+            <option value="">(select one)</option>
+            <option value="1">Vanilla</option>
+            <option value="2">Chocolate</option>
+            <option value="3">Forest Fruits</option>
+            <option value="4">Other</option>
+          </select>
+        </label>
+      </fieldset>
+      <fieldset>
+        <legend class = "legend"> Allergies </legend>
+        <label for = "allergie"><input id = "allergie" type = "checkbox" value = " To Chocolate" class="inline"> Chocolate </label>
+        <label for = "allergie"><input id = "allergie" type = "checkbox" value = " To Vanilla" class="inline"> Vanilla </label>
+        <label for = "allergie"><input id = "alergie" type = "checkbox" value = " To Strawberry" class="inline"> Strawberry </label>
+        <label for = "allergie"><input id = "alergie" type = "checkbox" value = " Not Allergic" class="inline"> Not Allergic </label>
+      </fieldset>
+      <fieldset>
+        <legend class = "legend">How do you take your protein?</legend>
+        <label for="bio">
+          <textarea id="bio" name="bio" rows="5" cols="30" placeholder="I like to cook pancakes with it ..."></textarea>
+      </fieldset>
+      <input id = "submit" type = "submit" value = "Submit" />
+    </form>
+  </body>
+</html>
