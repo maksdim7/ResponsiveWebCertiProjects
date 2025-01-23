@@ -1,0 +1,83 @@
+.image{
+    display: block;
+    max-width: 100%;
+    width: 200px;
+    height: auto;
+  }
+  
+  h1{
+    background-color: #9b1c31;
+    color: #effffe;
+    font-family: Verdana;
+    text-align: center;
+  }
+  
+  .caption{
+    float: left;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 200px;
+    text-align:center;
+    padding-top: 10px;
+    padding-bottom: 0;
+    margin: 0;
+  }
+  
+  .main_pic{
+    float: left;
+    width: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    max-width: 200px;
+    align-items: center;
+    border: 0;
+    margin-left: -10px;
+  }
+  
+  .info{
+      float: right;
+      width: 50%;
+      display: inline-block;
+      box-sizing: border-box;
+      border: 0;
+      margin-top: -10px;
+  }
+  
+  body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .tribute-info{
+    font-family: tahoma;
+    font-size: 17px;
+  }
+  
+  .footer{
+    float: right;
+    display: inline-block;
+    box-sizing: border-box;
+    width:33%;
+    margin-top: 100px;
+    padding: 0 5px;
+    font-size: 16px;
+    font-family: "Times New Roman ";
+    border: none;
+  }
+  
+  a {
+    color: black;
+    
+  }
+  
+  a:visited {
+    color: black;
+  }
