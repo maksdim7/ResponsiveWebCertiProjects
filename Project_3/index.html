@@ -1,0 +1,93 @@
+<html lang = "en">
+<head>
+  <meta charset = "utf-8">
+  <meta name = "viewport" content = "width=device - width, initial-scale = 1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Technical documentation page</title>
+</head>
+<body>
+  <main id="main-doc">
+      <nav id="navbar">
+        <header class = "navigation">
+          <h1>HTML</h1>
+        </header>
+        <ul>
+          <li><a class = "nav-link" href="#doctype">DOCTYPE</a></li>
+          <li><a class = "nav-link" href="#structure">STRUCTURE</a></li>
+          <li><a class = "nav-link" href="#links">LINKS</a></li>
+          <li><a class = "nav-link" href="#images">IMAGES</a></li>
+          <li><a class = "nav-link" href="#validation">VALIDATION</a></li>
+        </ul>
+      </nav>
+    <section class="main-section" id="doctype">
+      <header>
+        <h1>Doctype</h1>
+      </header>
+      <p class ="info">The <b><code><!DOCTYPE>HTML</code></b> declaration is a required statement at the very top of an HTML document that informs the web browser about the version of HTML being used. It ensures proper rendering and consistent behavior across different browsers.</p>
+        <p class = "info">It is not case-sensitive but should follow the exact syntax for compatibility. It does not directly affect the content but ensures the browser interprets the document in "standards mode" rather than "quirks mode."
+Omitting or incorrectly writing the <b>!DOCTYPE</b> can lead to inconsistent rendering of the webpage.
+        </p>
+    </section>
+    <section class="main-section" id="structure">
+      <header>
+        <h1>Structure</h1>
+      </header>
+      <p class ="info">Structure refers to the organized arrangement of elements in a document or system to ensure clarity, functionality, and ease of use. In HTML, structure defines the hierarchical and logical arrangement of elements to create a meaningful and accessible webpage.</p>
+      <p class ="info">
+        <ul/>
+          <li><b>HTML Structure</b>: Consists of a head (metadata) and a body (content visible to users).</li>
+          <li><b>Semantic Tags</b>: Use tags like header, nav, main, section, and footer for a clear and meaningful layout.</li>
+          <li><b>Nesting</b>: Elements are nested within each other to represent relationships, e.g., lists, tables, or sections.</li>
+          <li><b>Importance</b>: A well-structured document improves readability, SEO, and accessibility for users and search engines.</li>
+        </ul>
+      </p>
+    </section>
+    <section class="main-section" id="links">
+      <header>
+        <h1>Links</h1>
+      </header>
+      <p class ="info">Links in HTML are created using the <b>a</b> (anchor) tag to connect a webpage to other resources, such as external sites, internal pages, or downloadable files. They are essential for navigation and creating a network of interconnected content.</p>
+        <p class ="info">
+          <ul>
+            <li><b>Syntax</b>:<code><a href="URL" > URL</a></code> where href specifies the destination.</li>
+            <li><b>Types</b>: Can link to external URLs, internal anchors (#id), email (mailto:), or files.</li>
+            <li><b>Attributes</b>: Use attributes like <code>target="_blank"</code> to open links in a new tab and <code>rel="noopener"</code> for security.</li>
+            <li><b>Accessibility</b>: Include descriptive link text to make navigation easier for all users, including those using screen readers.</li>
+            <li><b>Validation</b>: Ensure links are functional and lead to the intended destination to avoid broken links.</li>
+          </ul>
+        </p>
+    </section>
+    <section class="main-section" id="images">
+      <header>
+        <h1>Images</h1>
+      </header>
+      <p class ="info">Images in HTML are used to display visual content on a webpage, enhancing user experience and conveying information effectively. The <code><img>img</code> tag is used to embed images, requiring a source file and alternative text.
+      </p>
+      <p class ="info">
+        <ul>
+          <li><b>Syntax</b>: <code><img src="image.jpg" alt="Description"></code> where src specifies the image path, and alt provides a text description for accessibility.</li>
+          <li><b>Accessibility</b>: Always include alt text for users with visual impairments or when the image fails to load.</li>
+          <li><b>Optimization</b>: Use optimized file formats (e.g., JPEG, PNG, WebP) to improve loading speed and performance.</li>
+          <li><b>Responsiveness</b>: Use attributes like width, height, or CSS to ensure images adapt to different screen sizes.</li>
+          <li><b>SEO Benefit</b>: Descriptive file names and alt attributes help search engines index images effectively.</li>
+        </ul>
+      </p>
+    </section>
+    <section class="main-section" id="validation">
+      <header>
+        <h1>Validation</h1>
+      </header>
+      <p class ="info">Validation ensures that HTML code complies with web standards and is free of errors, improving browser compatibility, functionality, and accessibility. It involves checking the structure, syntax, and semantics of the code.</p>
+      <p class ="info">
+        <ul>
+          <li><b>Purpose</b>: Detect and fix errors to ensure consistent rendering across browsers.</li>
+          <li><b>Tools</b>: Use validators like the W3C Markup Validation Service to check for issues.</li>
+          <li><b>Benefits</b>: Improves website performance, accessibility, and SEO rankings.</li>
+          <li><b>Common Checks</b>: Proper nesting of elements, closing tags, valid attribute usage, and correct doctype declaration.</li>
+          <li><b>Best Practice</b>: Regularly validate during development to maintain clean and compliant code.</li>
+        </ul>
+      </p>
+    </section>
+  </main>
+</body>
+</html>
